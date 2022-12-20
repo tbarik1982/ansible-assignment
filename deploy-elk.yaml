@@ -1,0 +1,6 @@
+---
+- name: Install Java
+  hosts: app
+  become: yes
+  roles:
+       - ../roles/java
